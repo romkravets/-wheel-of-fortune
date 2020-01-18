@@ -1,3 +1,18 @@
-body {
-  background: red;
+.wrap {
+  text-align: center;
+}
+.wrap:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 15px solid transparent;
+  border-top-color: red;
+  border-bottom-width: 0rem;
+}
+#btn {
+  margin-top: 30px;
 }
